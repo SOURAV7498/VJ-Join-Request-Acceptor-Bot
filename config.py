@@ -9,7 +9,7 @@ LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "1003168773809"))
 ADMINS = int(environ.get("ADMINS", "6222491731"))
 
 # Warning - Give Db uri in deploy server environment variable, don't give in repo.
-DB_URI = environ.get("DB_URI", "") # Warning - Give Db uri in deploy server environment variable, don't give in repo.
+DB_URI = environ.get("DB_URI", "mongodb+srv://gouravbolange_db_user:yos9d73FCsyLpiI6@cluster0.wxnzgc0.mongodb.net/?retryWrites=true&w=majority&joinrequetbot=Cluster0") # Warning - Give Db uri in deploy server environment variable, don't give in repo.
 DB_NAME = environ.get("DB_NAME", "joinrequetbot")
 
 # If this is True Then Bot Accept New Join Request 
